@@ -1,0 +1,18 @@
+Source: libmirisdr5
+Section: hamradio
+Priority: optional
+Maintainer: ericek111 <erik@brocko.eu>
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13), cmake, libusb-1.0-0-dev
+Standards-Version: 4.7.0
+Homepage: https://github.com/ericek111/libmirisdr-5
+#Vcs-Browser: https://salsa.debian.org/debian/libmirisdr5
+Vcs-Git: https://github.com/ericek111/libmirisdr-5.git
+
+Package: libmirisdr5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libusb-1.0-0
+Conflicts: libmirisdr4
+Multi-Arch: same
+Description: Library for Mirics-based devices
+ Software support for the Mirics based software defined radio devices
