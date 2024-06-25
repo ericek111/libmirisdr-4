@@ -6,3 +6,10 @@ src/x64
 .project
 .idea
 cmake-build-*
+debian/debhelper-build-stamp
+debian/files
+debian/libmirisdr5.debhelper.log
+debian/libmirisdr5.substvars
+debian/libmirisdr5
+debian/.debhelper
+obj-x86_64-linux-gnu/
